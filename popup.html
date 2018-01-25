@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Artist Finder</title>
+  <meta name="description" content="ArtistFinder Chrome Extension">
+  <meta name="Divya Gopinath">
+  <link rel="stylesheet" href="css/spotify.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <script src="js/jquery-3.2.1.min.js"></script>  
+  <script src="js/scripts.js"></script>
+  <div class="container">
+
+    <h1>Find an Artist</h1>
+    <p>Type an artist name and click on "Search". Preview the top tracks of the given artist.</p>
+    <form id="search-form">
+        <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name"/>
+    </form>
+    <div class="btn-container">
+        <button id="button" class="btn btn-primary">Search</button>
+    </div>
+    <div id="results" class="artist-table-container">
+        <table id="artist-table" class="clicktable">
+        </table>
+    </div>
+    <div id="player">
+    </div>
+  </div>
+
+</body>
+</html>

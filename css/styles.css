@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+}
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
+.btn-container { 
+	text-align: center;
+}
+.artist-table-container { 
+	padding: 10%;
+	font-size: 1em;
+}
+tr.paddedRow>td {
+  padding-bottom: 1em;
+}
+#artistbutton {
+
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+}
+#artistbutton:hover { 
+	font-weight: bold;
+	color: #1db954;
+}
+
